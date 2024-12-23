@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(240, 248, 255, 0.8); /* Light blue background with transparency */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    background-color: rgba(70, 130, 180, 0.9); /* Steel blue header with transparency */
+    color: #fff; /* White text */
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: rgba(70, 130, 180, 0.9); /* Steel blue labels with transparency */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid rgba(204, 204, 204, 0.9); /* Transparent border */
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+}
+
+form button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    background-color: rgba(70, 130, 180, 0.9); /* Steel blue button with transparency */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgba(65, 105, 225, 0.9); /* Royal blue on hover with transparency */
+}
+
+#studentRecords {
+    margin-top: 2rem;
+}
+
+#studentRecords ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px; /* Dynamic vertical scrollbar */
+    overflow-y: auto;  /* Dynamic vertical scrollbar */
+}
+
+#studentRecords li {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#studentRecords button.edit, #studentRecords button.delete {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-left: 0.5rem;
+    background-color: rgba(65, 105, 225, 0.9); /* Royal blue buttons with transparency */
+    color: #fff;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#studentRecords button.edit:hover, #studentRecords button.delete:hover {
+    background-color: rgba(70, 130, 180, 0.9); /* Steel blue on hover with transparency */
+}
+
+#studentRecords button.delete {
+    right: 0.5rem;
+    background-color: rgba(220, 20, 60, 0.9); /* Crimson delete button with transparency */
+}
+
+#studentRecords button.delete:hover {
+    background-color: rgba(178, 34, 34, 0.9); /* Firebrick red on hover with transparency */
+}
